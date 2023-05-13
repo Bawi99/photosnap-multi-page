@@ -196,7 +196,7 @@ h2 {
   position: relative;
 }
 .nav_brand {
-  padding: var(--hori-wrapper);
+  padding: 2rem;
   /* background-color: cyan; */
   background-color: var(--clr-100);
   position: relative;
@@ -645,7 +645,7 @@ address {
 
 .footer {
   text-align: center;
-  padding: calc(var(--hori-wrapper) * 2) var(--hori-wrapper);
+  padding: 2rem var(--hori-wrapper);
   display: grid;
   grid-template-columns: repeat(3, auto);
   row-gap: calc(var(--flowiser) * 2);
@@ -868,7 +868,7 @@ ul.page_list li + li {
 
   .footer {
     text-align: left;
-    padding: var(--hori-wrapper);
+    padding: calc(var(--hori-wrapper) / 2) var(--hori-wrapper);
     gap: calc(var(--flowiser) * 1.25);
   }
   .footer a.logo {
@@ -899,7 +899,7 @@ ul.page_list li + li {
 @media all and (min-width: 750px) {
   .nav_bar {
     position: static;
-    padding: calc(var(--hori-wrapper) / 2) var(--hori-wrapper);
+    padding: 2rem var(--hori-wrapper);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -917,7 +917,7 @@ ul.page_list li + li {
     position: static;
     grid-area: 1/1/2 / span 3;
     transform: translate(0);
-    /* transition: none; */
+    transition: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
