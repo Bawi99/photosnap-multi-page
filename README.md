@@ -6,24 +6,48 @@
   - [Table of contents](#table-of-contents)
     - [Links](#links)
   - [Screenshot](#screenshot)
+    - [Home](#home)
+    - [Stories](#stories)
+    - [Features](#features)
+    - [Pricing](#pricing)
   - [The challenge](#the-challenge)
     - [Expected Behaviour](#expected-behaviour)
       - [Multiple Pages](#multiple-pages)
-      - [Stories](#stories)
+      - [Stories](#stories-1)
       - [Call-to-action links](#call-to-action-links)
     - [Built with](#built-with)
   - [Author](#author)
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Front mentor profile](https://www.frontendmentor.io/profile/Matondo99)
+- Live Site URL: [photosnap-multi-page](https://bawi99.github.io/photosnap-multi-page/stories.html)
 
 ## Screenshot
 
-| Home | Stories | Features | Pricing |
+### Home
+
+| Desktop | Tablet | Mobile | Mobile menu |
 |:---------:|:--------:|:--------:|:--------:|
-| ![Home screenshot](./screenshots/photosnap-home-desktop.png) | ![Stories screenshot](./screenshots/photosnap-stories-desktop.png) | ![Features screenshot](./screenshots/photosnap-features-desktop.png) | ![Pricing screenshot](./screenshots/photosnap-pricing-desktop.png) |
+|![Home desktop](./screenshots/photosnap-home-desktop.png) | ![Home tablet](./screenshots/photosnap-home-tablet.png) | ![Home mobile](./screenshots/photosnap-home-mobile.png) | ![Home mobile menu](./screenshots/photosnap-home-mobile-modal_menu.png) |
+
+### Stories
+
+| Desktop | Effects | Tablet | Mobile |
+|:---------:|:--------:|:--------:|:--------:|
+| ![Stories desktop](./screenshots/photosnap-stories-desktop.png) | ![Stories effects](./screenshots/photosnap-stories-desktop-hover.png) | ![Stories tablet](./screenshots/photosnap-stories-tablet.png) | ![Stories mobile](./screenshots/photosnap-stories-mobile.png) |
+
+### Features
+
+| Desktop | Tablet | Mobile |
+|:---------:|:--------:|:--------:|
+| ![Features desktop](./screenshots/photosnap-features-desktop.png) | ![Features tablet](./screenshots/photosnap-features-tablet.png) | ![Features mobile](./screenshots/photosnap-features-mobile.png) |
+
+### Pricing
+
+| Desktop | Tablet | Mobile |
+|:---------:|:--------:|:--------:|
+| ![Pricing desktop](./screenshots/photosnap-pricing-desktop.png) | ![Pricing tablet](./screenshots/photosnap-pricing-tablet.png) | ![Pricing mobile](./screenshots/photosnap-pricing-mobile.png) |
 
 ## The challenge
 
@@ -65,6 +89,4 @@ li#links The "Pick a plan" call-to-actions in the pricing tiers should be anchor
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Astar Bahouidi](https://github.com/Bawi99)
