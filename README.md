@@ -20,8 +20,9 @@
 
 ### Links
 
-- Solution URL: [Front mentor profile](https://www.frontendmentor.io/profile/Matondo99)
-- Live Site URL: [photosnap-multi-page](https://bawi99.github.io/photosnap-multi-page/stories.html)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eb5d32df-7100-43e4-a0c1-79da6346c38f/deploy-status)](https://app.netlify.com/sites/ephemeral-kitten-dd377d/deploys)
+- [Solution URL](https://github.com/astaba/photosnap-multi-page)
+- [photosnap-multi-page LIVE SITE](https://64975e37991e3f1c70e56da4--ephemeral-kitten-dd377d.netlify.app/index.html)
 
 ## Screenshot
 
