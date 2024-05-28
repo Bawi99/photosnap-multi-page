@@ -113,6 +113,11 @@ img {
   grid-row-end: var(--row-end-grid1_text_wrap, 3);
   grid-column-end: var(--col-end-grid1_text_wrap, -2);
 
+  margin-top: var(--mar-top-text, 0);
+  margin-bottom: var(--mar-bot-text,0);
+  margin-left: var(--mar-grid1_text_wrap-left, 0);
+  margin-right: var(--mar-grid1_text_wrap-right, 0);
+
   padding-top: var(--pad-top-grid1_text_wrap, 0);
   padding-bottom: var(--pad-bot-grid1_text_wrap, 0);
   padding-left: var(--pad-left-grid1_text_wrap, 0);
@@ -746,10 +751,8 @@ ul.page_list li + li {
   .grid1_text_wrap {
     --pad-left-grid1_text_wrap: var(--hori-wrapper);
     --pad-right-grid1_text_wrap: var(--hori-wrapper);
-    margin-top: var(--mar-top-text, calc(var(--hori-wrapper) * 1));
-    margin-bottom: var(--mar-bot-text, calc(var(--hori-wrapper) * 1));
-    margin-left: var(--mar-grid1_text_wrap-left, 0);
-    margin-right: var(--mar-grid1_text_wrap-right, 0);
+    --mar-top-text: calc(var(--hori-wrapper) * 1);
+    --mar-bot-text: calc(var(--hori-wrapper) * 1);
   }
   .grid1_text_wrap-over .arrow_link-lose {
     flex-shrink: 0;
