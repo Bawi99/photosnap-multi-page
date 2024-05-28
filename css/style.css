@@ -128,14 +128,17 @@ img {
   --row-start-grid1_text_wrap: 1;
   --row-end-grid1_text_wrap: 2;
 }
-.hazy_01 {
-  background: linear-gradient(
-      3deg,
-      var(--clr-01) 1%,
-      var(--clr-02) 40%,
-      var(--clr-03) 80%
-    )
-    top left/40% 7px no-repeat;
+
+.bg-edging {
+  background-image: linear-gradient(
+    var(--direction, 0deg),
+    var(--clr-01) 1%,
+    var(--clr-02) 40%,
+    var(--clr-03) 80%
+  );
+  background-position: var(--edging-y, top) var(--edging-x, left);
+  background-size: var(--edging-w, 100%) var(--edging-h, 100%);
+  background-repeat: no-repeat;
 }
 /* **************************************************************** */
 
@@ -155,6 +158,12 @@ img {
 .grid1_text_wrap > :not(:first-child) {
   /* border: solid 2px red; */
   margin-top: calc(var(--flowiser) * 2);
+}
+
+.grid1_text_wrap.bg-edging {
+  --direction: 3deg;
+  --edging-w: 40%;
+  --edging-h: 7px;
 }
 
 h1,
@@ -233,7 +242,7 @@ footer {
 }
 main.modal::before,
 footer.modal::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -248,7 +257,7 @@ footer.modal::before {
 .nav_list {
   padding: 2em;
 }
-.nav_list li+li {
+.nav_list li + li {
   margin-top: 0.75em;
 }
 .nav_list li a {
@@ -601,15 +610,10 @@ address {
   --pricing-accent: var(--clr-100);
   --pricing-anti-accent: var(--clr-900);
 }
-.hazy_02 {
-  background-image: linear-gradient(
-    1.5deg,
-    var(--clr-01) 1%,
-    var(--clr-02) 40%,
-    var(--clr-03) 80%
-  );
-  background-size: 100% 7px;
-  background-repeat: no-repeat;
+.pricing_card.bg-edging {
+  --direction: 1.5deg;
+  --edging-w: 100%;
+  --edging-h: 7px;
 }
 /* ********************   Compare      ******************************* */
 .table_container {
@@ -784,14 +788,10 @@ ul.page_list li + li {
   .grid1_text_wrap > :not(:first-child) {
     margin-left: calc(var(--flowiser) * 2);
   }
-  .hazy_01 {
-    background: linear-gradient(
-        87deg,
-        var(--clr-01) 1%,
-        var(--clr-02) 40%,
-        var(--clr-03) 80%
-      )
-      left/7px no-repeat;
+  .grid1_text_wrap.bg-edging {
+    --direction: 87deg;
+    --edging-w: 7px;
+    --edging-h: 100%;
   }
   .grid1_text_wrap .text {
     max-width: 38ch;
@@ -849,14 +849,10 @@ ul.page_list li + li {
     justify-self: end;
     margin-top: 0;
   }
-  .hazy_02 {
-    background-image: linear-gradient(
-      87deg,
-      var(--clr-01) 1%,
-      var(--clr-02) 40%,
-      var(--clr-03) 80%
-    );
-    background-size: 7px 100%;
+  .pricing_card.bg-edging {
+    --direction: 87deg;
+    --edging-w: 7px;
+    --edging-h: 100%;
   }
   /* ***************************************** */
   .table_container {
@@ -914,8 +910,7 @@ ul.page_list li + li {
     display: grid;
     grid-template-columns:
       auto
-      minmax(max-content, 66%)
-    ;
+      minmax(max-content, 66%);
   }
   .nav_brand {
     padding: 0;
@@ -940,7 +935,7 @@ ul.page_list li + li {
     padding: 0;
     margin-left: 1rem;
   }
-  .nav_list li+li {
+  .nav_list li + li {
     margin-top: 0;
   }
   .nav_list li:not(:last-child) {
@@ -992,14 +987,10 @@ ul.page_list li + li {
   .pricing_card-dark {
     --pad-pricing_card-dark: calc(1em * 5);
   }
-  .hazy_02 {
-    background-image: linear-gradient(
-      1.5deg,
-      var(--clr-01) 1%,
-      var(--clr-02) 40%,
-      var(--clr-03) 80%
-    );
-    background-size: 100% 7px;
+  .pricing_card.bg-edging {
+    --direction: 1.5deg;
+    --edging-w: 100%;
+    --edging-h: 7px;
   }
 
   .footer a.logo {
